@@ -93,5 +93,6 @@ const init = function(){
   paginationView.addHandlerClick(renderNewPage);
   addRecipeView.addHandlerUpload(controlAddRecipe);
   bookMarksView.render([...model.state.bookmarks.values()]);
+  console.log('Welcome To The App');
 }
 init();
